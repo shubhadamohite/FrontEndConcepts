@@ -1,0 +1,45 @@
+.container{
+    height: 720px;
+    background-color: rgb(108, 119, 182);
+}
+.header{
+    text-align: center;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.comment-box{
+
+    width:100%;
+    height: 100px;
+    justify-content: start;
+    text-align: start;
+    
+}
+
+.submit{
+    margin-top: 2rem;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(100, 192, 100);
+}
+
+.survey-form{
+    width:  30rem;
+    padding: 2rem;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(20, 49, 92);
+}
+
+.form-group{
+    color: white;
+}
