@@ -66,18 +66,13 @@ let biographies = completeUserData.map((element,index,array) => {
     let siblings = element.additionalInfo.siblings;
     let siblingsString = siblings.length > 1 ? siblings.slice(0,-1).join(', ') + ' and '+siblings.slice(-1)+".": siblings.join("");
  return `${index}. ${element.firstName} ${element.lastName} is from ${element.additionalInfo.hometown}. ${element.pronouns.main.capitalized} has a ${element.additionalInfo.pet.species} named ${element.additionalInfo.pet.name}. ${element.pronouns.possessive.capitalized} favorite color is ${element.additionalInfo.favoriteColor} and ${element.pronouns.possessive.lowerCase} favorite food is ${element.additionalInfo.favoriteFood}. ${element.pronouns.possessive.capitalized} siblings are ${ siblingsString} `
-// console.log(array.map((x)=>{console.log(x.additionalInfo.hometown)}))
-//  [Appropriate pronoun] has a [pet species] named [pet name]. 
-//  [Appropriate pronoun] favorite color is [favorite color] and 
-//  [appropriate pronoun] favorite food is [favorite food]. 
-//  [Appropriate pronoun] siblings are [siblings].)
-//   console.log(index)
-//   console.log(array)  
 })
 
 // console.log(biographies)
 
 console.log(arr.slice(-1))
+
+
 /* 
 
         Challenge
